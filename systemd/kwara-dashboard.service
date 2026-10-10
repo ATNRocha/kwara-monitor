@@ -1,0 +1,21 @@
+[Unit]
+Description=ATN Kwara Monitor Dashboard V0.4.3 Smooth Live
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/kwara-monitor
+ExecStart=/opt/kwara-monitor/.venv/bin/python -m app.dashboard --host 127.0.0.1 --port 8601
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+Nice=5
+CPUQuota=40%
+MemoryHigh=350M
+MemoryMax=600M
+
+[Install]
+WantedBy=multi-user.target

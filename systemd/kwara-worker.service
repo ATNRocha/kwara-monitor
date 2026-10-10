@@ -1,0 +1,19 @@
+[Unit]
+Description=ATN Kwara Monitor Worker
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/kwara-monitor
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/kwara-monitor/.venv/bin/python -m app.worker
+Restart=always
+RestartSec=10
+Nice=10
+CPUQuota=70%
+MemoryHigh=1200M
+MemoryMax=1800M
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data
+/data/*
+!/data/.gitkeep
+config/lots.json
+*.db
+*.db-shm
+*.db-wal
+
+# Browser/runtime caches
+.playwright/
+.cache/
+
+# Logs / backups
+*.log
+backups/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / local overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*

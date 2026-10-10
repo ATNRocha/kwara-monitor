@@ -1,0 +1,13 @@
+[
+  {
+    "lot": 100,
+    "ref": "example-ref",
+    "title": "Example auction item",
+    "url": "https://example.com/auction/item-100",
+    "market_value": 5000,
+    "max_bid": 2000,
+    "tech_score": 8.5,
+    "aesthetic_score": 7.0,
+    "enabled": true
+  }
+]
