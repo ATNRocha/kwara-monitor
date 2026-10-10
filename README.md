@@ -1,5 +1,7 @@
 # ATN IT · Kwara Monitor
 
+**English** · [Português (Brasil)](README.pt-BR.md)
+
 ![ATN IT](assets/atn-it-logo.png)
 
 Personal, read-only auction monitoring dashboard built to centralize lot status, bidding cost calculations, bidding ceilings, historical changes and time-to-close information.
