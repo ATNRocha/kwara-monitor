@@ -1,6 +1,8 @@
-# ATN IT · Kwara Monitor
+# ATN IT | Kwara Monitor
 
-**English** · [Português (Brasil)](README.pt-BR.md)
+**English** | [Português (Brasil)](README.pt-BR.md)
+
+[![CI](https://github.com/ATNRocha/kwara-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/ATNRocha/kwara-monitor/actions/workflows/ci.yml)
 
 ![ATN IT](assets/atn-it-logo.png)
 
@@ -10,7 +12,7 @@ Personal, read-only auction monitoring dashboard built to centralize lot status,
 
 ## Current release
 
-**v0.4.3 — Smooth Live Update**
+**v0.4.3 | Smooth Live Update**
 
 The production dashboard is a lightweight Python HTTP application. It loads the UI once and refreshes state through `/api/state`, avoiding full-page refreshes while countdowns continue updating in the browser.
 
